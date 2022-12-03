@@ -13,7 +13,7 @@ int main(){
  init();
   DDRB=0b11100111;//intializing pins 3 and 4 as input
   float maxtemp=40;//defining the max temp to give warning 40
-  float lowesttemp=24;//defing the lowest temp to give warning as 24
+  float lowesttemp=25;//defing the lowest temp to give warning as 24
   float thetemp;//defing a value to hold the temp value
   char *stringmax[0];//string to hold the max temp value
   char *stringmin[0];//string to hold the lowest temp value
